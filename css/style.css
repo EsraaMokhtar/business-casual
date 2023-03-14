@@ -1,0 +1,35 @@
+body{ background-image: url(../images/bg.jpg); height: 500px; background-size: cover;
+background-attachment: fixed; background-position: center center; position: relative; }
+/*###################################Start Header###################################*/
+/*Start head*/
+.head{ margin: 40px 0px 30px; color: #fff; }
+.head h1{ font-size:3.5em; }
+.head p{ font-size:1.25em; }
+/*End head*/
+/*Start Navbar*/
+.navbar-nav{ margin: 0px auto; font-size: 1.25em; }
+.nav-item{ padding: 20px; }
+.navbar-light{ background-color:rgba(255,255,255,0.9); }
+/*End Navbar*/
+/*###################################End Header###################################*/
+/*###################################Start main###################################*/
+/*Start carousel*/
+.box{ margin:30px 0px; padding: 20px; background-color: rgba(255,255,255,0.9); font-size: 1.25em; }
+.carousel{ margin-bottom: 20px; }
+.carousel-item img{ width: 100%; }
+.hr-carousel{ max-width: 250px; border-color:#999; }
+/*End carousel*/
+/*Start Build Website*/
+.hr-400{ max-width: 400px; border-color: #999; }
+/*End Build Website*/
+/*Start gallery*/
+.gallery-box .row>div{ margin-bottom: 25px; }
+.gallery-box img{ transition: transform 0.7s ease-in-out;}
+.gallery-box img:hover{ transform: scale(1.1,1.1); }
+/*End gallery*/
+/*###################################End main###################################*/
+/*###################################Start footer###################################*/
+footer{ background-color: rgba(255,255,255,0.9); padding: 50px 0px; font-size: 1.25em; }
+/*###################################End footer###################################*/
+.team-box .img-thumbnail{ margin: 20px 0px; }
+.contact-box img{ width:100%; height: 400px; }
